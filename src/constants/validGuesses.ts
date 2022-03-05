@@ -1,11 +1,4 @@
 export const VALID_GUESSES = [
-  'obama',
-  'biden',
-  'austin',
-  'public',
-  'office',
-  'covid',
-  'lgbtq',
   'aahed',
   'aalii',
   'aargh',
