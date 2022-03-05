@@ -5,6 +5,7 @@ import { GameStats } from '../../lib/localStorage'
 import { shareStatus } from '../../lib/share'
 import { tomorrow } from '../../lib/words'
 import { BaseModal } from './BaseModal'
+import { CampaignLinks } from '../campaign/CampaignLinks'
 import {
   STATISTICS_TITLE,
   GUESS_DISTRIBUTION_TEXT,
@@ -45,6 +46,8 @@ export const StatsModal = ({
         handleClose={handleClose}
       >
         <StatBar gameStats={gameStats} />
+
+        <CampaignLinks />
       </BaseModal>
     )
   }
@@ -88,31 +91,7 @@ export const StatsModal = ({
         </div>
       )}
 
-      <div>
-        <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-          {' '}
-          <a
-            href="https://www.fulfordforcongress.com"
-            target="_blank"
-            rel="noreferrer"
-            className="underline font-bold"
-          >
-            Learn all about me here!
-          </a>{' '}
-        </p>
-
-        <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-          {' '}
-          <a
-            href="https://secure.actblue.com/donate/robin-for-congress-1"
-            target="_blank"
-            rel="noreferrer"
-            className="underline font-bold"
-          >
-            Support my campaign by donating here!
-          </a>{' '}
-        </p>
-      </div>
+      <CampaignLinks />
     </BaseModal>
   )
 }
