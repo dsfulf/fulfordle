@@ -1,5 +1,17 @@
-# React Wordle
+# Fulfordle
 
+Hi! This is a fun project my husband and I made to support my campaign and values. I am running for
+Congress in Texas Congressional District 2. If you'd like to learn about me,
+[**you can read about my platform and values here!**](https://fulfordforcongress.com)
+
+I believe in paying my staff fair wages on W2s instead of as contractors on 1099s, no unpaid
+internships, and providing healthcare stidpends. If you'd like to support my campaign values, 
+[**please donate here!**](https://secure.actblue.com/donate/robin-for-congress-1)
+
+---
+
+## About This Project
+  
 This is a clone project of the popular word guessing game we all know and love. Made using React, Typescript, and Tailwind.
 
 [**Try out the demo!**](https://fulfordle.vercel.app/)
@@ -11,7 +23,7 @@ This is a clone project of the popular word guessing game we all know and love. 
 Clone the repository and perform the following command line actions:
 
 ```bash
-$> cd react-wordle
+$> cd fulfordle
 $> npm install
 $> npm run start
 ```
