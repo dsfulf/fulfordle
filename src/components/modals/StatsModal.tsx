@@ -94,6 +94,7 @@ export const StatsModal = ({
           <a
             href="https://www.fulfordforcongress.com"
             target="_blank"
+            rel="noreferrer"
             className="underline font-bold"
           >
             Learn all about me here!
@@ -105,6 +106,7 @@ export const StatsModal = ({
           <a
             href="https://secure.actblue.com/donate/robin-for-congress-1"
             target="_blank"
+            rel="noreferrer"
             className="underline font-bold"
           >
             Support my campaign by donating here!
