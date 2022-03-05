@@ -2,7 +2,7 @@
 
 This is a clone project of the popular word guessing game we all know and love. Made using React, Typescript, and Tailwind.
 
-[**Try out the demo!**](https://reactle.vercel.app/)
+[**Try out the demo!**](https://fulfordle.vercel.app/)
 
 ## Build and run
 
@@ -21,8 +21,8 @@ $> npm run start
 #### Development
 
 ```bash
-$> docker build -t reactle:dev -f docker/Dockerfile .
-$> docker run -d -p 3000:3000 --name reactle-dev reactle:dev
+$> docker build -t fulfordle:dev -f docker/Dockerfile .
+$> docker run -d -p 3000:3000 --name fulfordle-dev fulfordle:dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in browser.
@@ -30,8 +30,8 @@ Open [http://localhost:3000](http://localhost:3000) in browser.
 #### Production
 
 ```bash
-$> docker build --target=prod -t reactle:prod -f docker/Dockerfile .
-$> docker run -d -p 80:8080  --name reactle-prod reactle:prod
+$> docker build --target=prod -t fulfordle:prod -f docker/Dockerfile .
+$> docker run -d -p 80:8080  --name fulfordle-prod fulfordle:prod
 ```
 
 Open [http://localhost](http://localhost) in browser.
