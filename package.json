@@ -26,8 +26,8 @@
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "fix": "prettier --write src",
-    "lint": "prettier --check src",
+    "fix": "prettier --write src --end-of-line auto",
+    "lint": "prettier --check src --end-of-line auto",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "prepare": "husky install"
