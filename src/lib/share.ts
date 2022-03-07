@@ -21,7 +21,8 @@ export const shareStatus = (
     `${GAME_TITLE} ${solutionIndex} ${
       lost ? 'X' : guesses.length
     }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
-    generateEmojiGrid(guesses, getEmojiTiles(isDarkMode, isHighContrastMode))
+    generateEmojiGrid(guesses, getEmojiTiles(isDarkMode, isHighContrastMode)) + '\n\n' +
+    'Play @ https://fulfordle.vercel.app'
 
   const shareData = { text: textToShare }
 
