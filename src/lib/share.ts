@@ -1,6 +1,6 @@
 import { getGuessStatuses } from './statuses'
 import { solutionIndex } from './words'
-import { GAME_TITLE } from '../constants/strings'
+import { GAME_TITLE, GAME_URL } from '../constants/strings'
 import { MAX_CHALLENGES } from '../constants/settings'
 import { UAParser } from 'ua-parser-js'
 
@@ -21,8 +21,9 @@ export const shareStatus = (
     `${GAME_TITLE} ${solutionIndex} ${
       lost ? 'X' : guesses.length
     }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
-    generateEmojiGrid(guesses, getEmojiTiles(isDarkMode, isHighContrastMode)) + '\n\n' +
-    'Play @ https://fulfordle.vercel.app'
+    generateEmojiGrid(guesses, getEmojiTiles(isDarkMode, isHighContrastMode)) +
+    '\n\n' +
+    `Play @ ${GAME_URL}`
 
   const shareData = { text: textToShare }
 

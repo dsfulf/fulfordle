@@ -1,4 +1,5 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
+export const GAME_URL = process.env.REACT_APP_URL
 
 export const WIN_MESSAGES = [
   'Protect trans kids!',
